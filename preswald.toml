@@ -1,0 +1,20 @@
+[project]
+title = "Gym Data App"
+version = "0.1.0"
+port = 8501
+slug = "gym-data-app"  
+entrypoint = "main.py"  
+
+[branding]
+name = "🏋️ Powerlifting Explorer"
+logo = "images/logo.png"
+favicon = "images/dumbbell_gym_icon_124413.ico"
+primaryColor = "#F89613"
+
+[data.X_test]
+type = "csv"
+path = "data/X_test.csv"  
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
